@@ -46,22 +46,22 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && isset($_POST["submit"])) {
         <div class="form-body">
           <div class="form-group">
             <p>Firstname</p>
-            <p class="input-details"><?php echo $firstName ?></p>
+            <p class="input-details"><?php echo htmlspecialchars($firstName) ?></p>
           </div>
           <div class="form-group">
             <p>Lastname</p>
-            <p class="input-details"><?php echo $lastName ?></p>
+            <p class="input-details"><?php echo htmlspecialchars($lastName) ?></p>
           </div>
           <div class="form-group">
             <p>Age</p>
-            <p class="input-details"><?php echo $age ?></p>
+            <p class="input-details"><?php echo htmlspecialchars($age) ?></p>
           </div>
           <div class="form-group">
             <p>Contact</p>
-            <p class="input-details"><?php echo $contact ?></p>
+            <p class="input-details"><?php echo htmlspecialchars($contact) ?></p>
             <div class="form-group">
               <p>Address</p>
-              <p class="input-details"><?php echo $address ?></p>
+              <p class="input-details"><?php echo htmlspecialchars($address) ?></p>
             </div>
           </div>
 

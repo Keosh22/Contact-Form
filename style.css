@@ -1,0 +1,124 @@
+ /* Color Pallete
+
+  Background - #0f0e17
+  Card - #fffffe
+  Headline - #0f0e17
+  Paragraph - #a7a9be
+  Card Paragraph - #2e2f3e
+  Button - #ff8906
+  highlight - #e53170
+
+
+
+ */
+ 
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+ body{
+  background-color: #0f0e17;
+ }
+
+ main{
+  padding: 24px 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .card{
+    background-color: #fffffe;
+    padding: 48px 34px;
+    border-radius: 25px;
+    min-width: 600px;
+ }
+  .form-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+ h1{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: 700;
+ }
+ 
+ h1 span{
+  color: #e53170;
+ }
+
+
+ /* FORM */
+ .form-header p{
+  color: #a7a9be;
+  font-family: 'Palanquin';
+  font-weight: 400;
+ }
+
+ .form-body{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ }
+
+ .form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+ }
+
+ .form-group p{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  padding-left: 5px;
+ }
+
+ .form-group input{
+  padding:8px 16px;
+  border-radius: 50px;
+  border-color: #ff8906;
+  border: 1px solid #a7a9be;
+  color: #0f0e17;
+  font-size: 1rem;
+  font-family: 'Palanquin';
+  outline: none;
+ }
+
+ .form-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+ }
+
+ .form-footer input{
+  padding: 16px 64px;
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+  color: #fffffe;
+  background-color: #ff8906;
+  border: 1px solid #ff8906;
+  border-radius: 100px;
+  cursor: pointer;
+ }
+ 
+ .form-footer input:hover{
+  background-color: #e53170;
+  border: 1px solid #e53170;
+  transition: 0.15s ease-in-out;
+ }
+
+ .input-details{
+  color: #a7a9be;
+ }
+
